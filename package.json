@@ -1,0 +1,25 @@
+{
+  "name": "monpremierserveurnode",
+  "version": "1.0.0",
+  "description": "J e crée mon premier serveur Node. Le but est d'apprendre à gérer les requêtes http.",
+  "keywords": [
+    "serveur",
+    "node",
+    "javascript"
+  ],
+  "homepage": "https://github.com/saidanrabia1-sys/monpremierserveurnode#readme",
+  "bugs": {
+    "url": "https://github.com/saidanrabia1-sys/monpremierserveurnode/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saidanrabia1-sys/monpremierserveurnode.git"
+  },
+  "license": "ISC",
+  "author": "said anrabia",
+  "type": "commonjs",
+  "main": "serveur.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

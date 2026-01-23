@@ -22,12 +22,11 @@ const server = http.createServer(app);
 
 // Je récupère l'adresse de le port du serveur 
 const date = new Date();
-const heure = 
 
 // Je précise l'adresse et le port du serveur
 server.listen(3000, () => {
     console.log("Le serveur tourne sur le port 3000.");
     console.log( date.toLocaleDateString());
-    console.log(heure.toLocaleTimeString());
+    console.log(date.toLocaleTimeString());
 });
 
